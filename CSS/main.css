@@ -1,0 +1,46 @@
+/*global rules*/
+body {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+/* small */
+@media (min-width: 768px) {
+    .container{
+        width: 750;
+    }
+}
+
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970;
+    }
+}
+
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* end global rules */
+
+/* header section */
+header{
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 60px;
+}
+/* end of header section */
